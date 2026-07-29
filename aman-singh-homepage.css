@@ -1,0 +1,26 @@
+.top-nav {
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.profile {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  align-items: right;
+  justify-content: right;
+  margin-left: 1050px;
+  margin-top: 20px;
+}
+
+.headline {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
