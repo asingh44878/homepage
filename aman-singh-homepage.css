@@ -24,3 +24,11 @@
   margin-bottom: 8px;
   margin-top: 0px;
 }
+
+.social {
+  background-color: #f0f4f8;
+  display: -moz-grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
