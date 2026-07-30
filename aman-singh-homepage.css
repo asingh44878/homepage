@@ -12,10 +12,12 @@ body {
   min-height: 10vh;
   color: #eef2f6;
   padding: 0 20px;
+  font-size: small;
 }
 
 .logotype {
   color: aliceblue;
+  font-size: large;
   text-decoration: none;
   margin: 0;
 }
