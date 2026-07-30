@@ -1,42 +1,72 @@
 <!doctype html>
 <html>
   <head>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <link rel="stylesheet" href="aman-singh-homepage.css" />
     <title>Aman Singh Homepage</title>
   </head>
   <body>
     <div class="top-nav">
+      <h3 class="logotype">Aman Singh</h3>
       <nav>
         <a href="1.work">Work</a> | <a href="2.About">About</a> |
-        <a href="3.Blogs">Blogs</a> | <a href="4.Contact">Contact</a> |
+        <a href="3.Blogs">Blogs</a> | <a href="4.Contact">Contact</a>
       </nav>
     </div>
-    <div class="sector1">
+
+    <div class="sector1-row">
       <img src="images/Profile.png" class="profile" />
       <h2 class="headline">Aman Singh</h2>
-      <hr />
+      <h4 class="title">Information Designer</h4>
+      <div id="particles-bg"></div>
     </div>
+
     <div class="text">
       <p>
         Hi! I am an Information Designer. I help teams understand what their
         data is actually saying.
-      </p>
-      <br />
-      <p>
+        <br />
         Designing dashboards, data stories and visual systems that turn messy
         information into clear insights.
       </p>
     </div>
     <div class="social">
       <nav>
-        <a href="www.amansingh.net" target="_blank"
-          ><img src="icons/website-click-svgrepo-com.svg" alt="portfolio"
+        <a href="https://www.amansingh.net" target="_blank"
+          ><img
+            src="icons/website-click-svgrepo-com.svg"
+            alt="portfolio"
+            width="20px"
+            height="20px"
         /></a>
-        |
-        <a href="www.linkedin.com/in/asingh44878" target="_blank"
-          ><img src="icons/linkedin-svgrepo-com.svg" alt="linkedin"
+        <a href="https://www.linkedin.com/in/asingh44878" target="_blank"
+          ><img
+            src="icons/linkedin-svgrepo-com.svg"
+            alt="linkedin"
+            width="20px"
+            height="20px"
         /></a>
       </nav>
     </div>
   </body>
+  <script>
+    particlesJS("particles-bg", {
+      particles: {
+        number: { value: 40 },
+        size: { value: 3 },
+        color: { value: "#1e3a8a" },
+        line_linked: {
+          enable: true,
+          color: "#94a1ae",
+          opacity: 0.4,
+        },
+        move: { speed: 1.5 },
+      },
+      interactivity: {
+        events: {
+          onhover: { enable: true, mode: "repulse" },
+        },
+      },
+    });
+  </script>
 </html>
