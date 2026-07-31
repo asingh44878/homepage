@@ -1,19 +1,27 @@
 <!doctype html>
 <html>
   <head>
+    <!--Adding script for the background animation with lines and dots.-->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!--Linking to the stylesheet for css-->
     <link rel="stylesheet" href="aman-singh-homepage.css" />
     <title>Aman Singh Homepage</title>
   </head>
   <body>
+    <!--Defining class 'top-nav' to put the H3 and the page links in the navigation bar. -->
     <div class="top-nav">
+      <!--h3 has its own class for further styling.-->
       <h3 class="logotype">Aman Singh</h3>
       <nav>
         <a href="1.work">Work</a> | <a href="2.About">About</a> |
         <a href="3.Blogs">Blogs</a> | <a href="4.Contact">Contact</a>
       </nav>
     </div>
+    <!--Closing the 'top-nav' div.-->
 
+    <!--Declaring new div with class 'sector1-row' to put the profile image, headline, title and the particles background together. 
+    Notice the 'particles-bg' has been placed at the bottom so that it appears being everything.-->
     <div class="sector1-row">
       <img src="images/Profile.png" class="profile" />
       <h2 class="headline">Aman Singh</h2>
@@ -21,6 +29,7 @@
       <div id="particles-bg"></div>
     </div>
 
+    <!--New div 'text' to put all the description together.-->
     <div class="text">
       <p>
         Hi! I am an Information Designer. I help teams understand what their
@@ -30,6 +39,8 @@
         information into clear insights.
       </p>
     </div>
+
+    <!-- New div to get the social icons together at the bottom.-->
     <div class="social">
       <nav>
         <a href="https://www.amansingh.net" target="_blank"
@@ -49,6 +60,8 @@
       </nav>
     </div>
   </body>
+
+  <!--The script from the top for the particles is being edited here-->
   <script>
     particlesJS("particles-bg", {
       particles: {
