@@ -2,9 +2,9 @@ body {
   background-color: #0b0e14;
   margin: 0;
   color: #eef2f6;
-  display: flex;
+  display: flex; /*stacks all your top-level sections (.top-nav, .sector1-row, .text, .social) vertically, as one flex layout spanning the whole page.*/
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100vh; /*forces body to be at least the full height of the browser viewport, even if the content itself is shorter.*/
 }
 
 .top-nav {
@@ -47,7 +47,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  flex-grow: 1; /*tells those two sections to expand and absorb any extra vertical space, pushing .social down to the bottom naturally, and spacing your headline/image/text block out rather than leaving it crammed at the top.*/
 }
 
 #particles-bg {
@@ -98,7 +98,7 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  flex-grow: 1;
+  flex-grow: 1; /*tells those two sections to expand and absorb any extra vertical space, pushing .social down to the bottom naturally, and spacing your headline/image/text block out rather than leaving it crammed at the top.*/
 }
 
 .social {
